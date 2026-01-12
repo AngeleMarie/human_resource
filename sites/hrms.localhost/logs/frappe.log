@@ -1,0 +1,3 @@
+2026-01-09 15:34:47,115 ERROR frappe New Exception collected in error log
+Site: hrms.localhost
+Form Dict: {'chart_name': 'Hiring vs Attrition Count', 'filters': '{"time_interval":"Monthly","company":"QT Software (Demo)"}', 'refresh': '1', 'time_interval': '', 'timespan': '', 'from_date': '', 'to_date': '', 'heatmap_year': '', 'cmd': 'hrms.hr.dashboard_chart_source.hiring_vs_attrition_count.hiring_vs_attrition_count.get_data'}

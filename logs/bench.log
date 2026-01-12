@@ -1,0 +1,132 @@
+2026-01-08 11:48:23,854 DEBUG cd hrm-bench && uv venv env --seed --python python3
+2026-01-08 11:48:26,257 LOG Getting frappe
+2026-01-08 11:48:26,257 DEBUG cd hrm-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-15 --depth 1 --origin upstream
+2026-01-08 11:50:24,989 LOG Installing frappe
+2026-01-08 11:50:24,990 DEBUG cd /home/angele/hrms/hrm-bench && uv pip install --quiet --upgrade -e /home/angele/hrms/hrm-bench/apps/frappe  --python /home/angele/hrms/hrm-bench/env/bin/python
+2026-01-08 11:50:32,819 DEBUG cd /home/angele/hrms/hrm-bench/apps/frappe && yarn install --check-files
+2026-01-08 11:50:45,814 DEBUG cd hrm-bench && bench build
+2026-01-08 11:50:45,948 INFO /home/angele/hrms/venv/bin/bench build
+2026-01-08 11:51:09,535 LOG setting up backups
+2026-01-08 11:51:09,575 LOG backups were set up
+2026-01-08 11:51:09,576 INFO Bench hrm-bench initialized
+2026-01-08 11:51:39,344 INFO /home/angele/hrms/venv/bin/bench new-site hrms.local
+2026-01-08 11:51:51,158 INFO /home/angele/hrms/venv/bin/bench new-site hrms.local
+2026-01-08 11:52:44,274 INFO /home/angele/hrms/venv/bin/bench new-site hrms.localhost --mariadb-root-username frappe --db-root-password 1234
+2026-01-08 11:53:25,518 INFO /home/angele/hrms/venv/bin/bench get-app erpnext --branch version-15
+2026-01-08 11:53:26,253 LOG Getting erpnext
+2026-01-08 11:53:26,253 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream
+2026-01-08 11:54:33,757 LOG Installing erpnext
+2026-01-08 11:54:33,757 DEBUG cd /home/angele/hrms/hrm-bench && uv pip install --quiet --upgrade -e /home/angele/hrms/hrm-bench/apps/erpnext  --python /home/angele/hrms/hrm-bench/env/bin/python
+2026-01-08 11:54:36,050 DEBUG cd /home/angele/hrms/hrm-bench/apps/erpnext && yarn install --check-files
+2026-01-08 11:54:36,662 DEBUG bench build --app erpnext
+2026-01-08 11:54:36,771 INFO /home/angele/hrms/venv/bin/bench build --app erpnext
+2026-01-08 11:54:46,104 INFO /home/angele/hrms/venv/bin/bench --site hrms.localhost install-app erpnext
+2026-01-08 11:55:50,888 INFO /home/angele/hrms/venv/bin/bench start
+2026-01-08 11:55:51,285 INFO /home/angele/hrms/venv/bin/bench watch
+2026-01-08 11:55:51,287 INFO /home/angele/hrms/venv/bin/bench schedule
+2026-01-08 11:55:51,297 INFO /home/angele/hrms/venv/bin/bench serve --port 8000
+2026-01-08 11:55:51,297 INFO /home/angele/hrms/venv/bin/bench worker
+2026-01-08 12:00:00,083 INFO /home/angele/hrms/venv/bin/bench --verbose --site all backup
+2026-01-08 12:07:18,278 INFO /home/angele/hrms/venv/bin/bench start
+2026-01-08 12:07:18,830 INFO /home/angele/hrms/venv/bin/bench serve --port 8000
+2026-01-08 12:07:18,836 INFO /home/angele/hrms/venv/bin/bench watch
+2026-01-08 12:07:18,837 INFO /home/angele/hrms/venv/bin/bench worker
+2026-01-08 12:07:18,837 INFO /home/angele/hrms/venv/bin/bench schedule
+2026-01-08 12:17:54,933 INFO /home/angele/hrms/venv/bin/bench start
+2026-01-08 12:17:55,358 INFO /home/angele/hrms/venv/bin/bench serve --port 8000
+2026-01-08 12:17:55,362 INFO /home/angele/hrms/venv/bin/bench watch
+2026-01-08 12:17:55,376 INFO /home/angele/hrms/venv/bin/bench schedule
+2026-01-08 12:17:55,383 INFO /home/angele/hrms/venv/bin/bench worker
+2026-01-08 12:37:13,907 INFO /home/angele/hrms/venv/bin/bench --site hrms.localhost list-apps
+2026-01-08 12:49:44,534 INFO /home/angele/hrms/venv/bin/bench start
+2026-01-08 12:49:44,949 INFO /home/angele/hrms/venv/bin/bench worker
+2026-01-08 12:49:44,956 INFO /home/angele/hrms/venv/bin/bench serve --port 8000
+2026-01-08 12:49:44,963 INFO /home/angele/hrms/venv/bin/bench watch
+2026-01-08 12:49:44,963 INFO /home/angele/hrms/venv/bin/bench schedule
+2026-01-08 17:02:43,928 INFO /home/angele/hrms/venv/bin/bench start
+2026-01-08 17:02:44,282 INFO /home/angele/hrms/venv/bin/bench serve --port 8000
+2026-01-08 17:02:44,285 INFO /home/angele/hrms/venv/bin/bench watch
+2026-01-08 17:02:44,287 INFO /home/angele/hrms/venv/bin/bench schedule
+2026-01-08 17:02:44,298 INFO /home/angele/hrms/venv/bin/bench worker
+2026-01-08 21:45:31,430 INFO /home/angele/hrms/venv/bin/bench get-app hrms
+2026-01-08 21:45:32,273 LOG Getting hrms
+2026-01-08 21:45:32,273 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git  --depth 1 --origin upstream
+2026-01-08 21:45:36,671 LOG Installing hrms
+2026-01-08 21:45:36,673 DEBUG cd /home/angele/hrms/hrm-bench && uv pip install --quiet --upgrade -e /home/angele/hrms/hrm-bench/apps/hrms  --python /home/angele/hrms/hrm-bench/env/bin/python
+2026-01-08 21:45:37,857 DEBUG cd /home/angele/hrms/hrm-bench/apps/hrms && yarn install --check-files
+2026-01-08 21:47:39,327 DEBUG bench build --app hrms
+2026-01-08 21:47:39,620 INFO /home/angele/hrms/venv/bin/bench build --app hrms
+2026-01-08 21:49:14,781 INFO /home/angele/hrms/venv/bin/bench --site hrms.localhost install-app hrms
+2026-01-08 21:59:38,289 INFO /home/angele/hrms/venv/bin/bench redis list
+2026-01-08 22:01:31,665 INFO /home/angele/hrms/venv/bin/bench redis start
+2026-01-08 22:02:02,197 INFO /home/angele/hrms/venv/bin/bench --site hrms.localhost clear-cache
+2026-01-08 22:50:31,540 INFO /home/angele/hrms/venv/bin/bench --site hrms.localhost install-app hrms
+2026-01-08 22:51:42,303 INFO /home/angele/hrms/venv/bin/bench get-app hrms
+2026-01-08 22:51:43,054 LOG Getting hrms
+2026-01-08 22:51:43,054 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git  --depth 1 --origin upstream
+2026-01-08 22:51:47,568 LOG Installing hrms
+2026-01-08 22:51:47,569 DEBUG cd /home/angele/hrms/hrm-bench && uv pip install --quiet --upgrade -e /home/angele/hrms/hrm-bench/apps/hrms  --python /home/angele/hrms/hrm-bench/env/bin/python
+2026-01-08 22:51:48,717 DEBUG cd /home/angele/hrms/hrm-bench/apps/hrms && yarn install --check-files
+2026-01-08 22:52:46,947 DEBUG bench build --app hrms
+2026-01-08 22:52:47,269 INFO /home/angele/hrms/venv/bin/bench build --app hrms
+2026-01-08 22:58:24,679 INFO /home/angele/hrms/venv/bin/bench --site hrms.localhost install-app hrms
+2026-01-08 22:59:23,838 INFO /home/angele/hrms/venv/bin/bench start
+2026-01-08 22:59:24,188 INFO /home/angele/hrms/venv/bin/bench schedule
+2026-01-08 22:59:24,203 INFO /home/angele/hrms/venv/bin/bench serve --port 8000
+2026-01-08 22:59:24,212 INFO /home/angele/hrms/venv/bin/bench watch
+2026-01-08 22:59:24,222 INFO /home/angele/hrms/venv/bin/bench worker
+2026-01-09 09:03:35,360 INFO /home/angele/hrms/venv/bin/bench start
+2026-01-09 09:03:35,850 INFO /home/angele/hrms/venv/bin/bench serve --port 8000
+2026-01-09 09:03:35,861 INFO /home/angele/hrms/venv/bin/bench watch
+2026-01-09 09:03:35,866 INFO /home/angele/hrms/venv/bin/bench worker
+2026-01-09 09:03:35,874 INFO /home/angele/hrms/venv/bin/bench schedule
+2026-01-09 12:29:16,361 INFO /home/angele/hrms/venv/bin/bench --hrms.localhost --maria-db
+2026-01-09 12:29:25,877 INFO /home/angele/hrms/venv/bin/bench --site hrms.localhost --maria-db
+2026-01-09 12:29:59,239 INFO /home/angele/hrms/venv/bin/bench --site hrms.localhost mariadb
+2026-01-09 12:30:48,395 INFO /home/angele/hrms/venv/bin/bench --site library.localhost reset
+2026-01-09 12:31:03,166 INFO /home/angele/hrms/venv/bin/bench --site hrms.localhost reset
+2026-01-09 12:31:30,636 INFO /home/angele/hrms/venv/bin/bench --site hrms.localhost frappe site reset
+2026-01-09 12:31:55,348 INFO /home/angele/hrms/venv/bin/bench --site hrms.localhost frappe site reset
+2026-01-09 12:32:11,588 INFO /home/angele/hrms/venv/bin/bench frappe --site hrms.localhost site reset
+2026-01-09 12:33:30,674 INFO /home/angele/hrms/venv/bin/bench --site hrms.localhost migrate
+2026-01-09 12:33:41,459 INFO /home/angele/hrms/venv/bin/bench start
+2026-01-09 12:33:41,894 INFO /home/angele/hrms/venv/bin/bench worker
+2026-01-09 12:33:41,895 INFO /home/angele/hrms/venv/bin/bench watch
+2026-01-09 12:33:41,900 INFO /home/angele/hrms/venv/bin/bench serve --port 8000
+2026-01-09 12:33:41,909 INFO /home/angele/hrms/venv/bin/bench schedule
+2026-01-09 12:33:45,435 INFO /home/angele/hrms/venv/bin/bench --site hrms.localhost migrate
+2026-01-09 12:34:12,280 INFO /home/angele/hrms/venv/bin/bench --site hrms.localhost reinstall
+2026-01-09 12:35:39,634 INFO /home/angele/hrms/venv/bin/bench --site hrms.localhost reinstall
+2026-01-09 12:40:08,601 INFO /home/angele/hrms/venv/bin/bench new-site hrms.localhost --mariadb-root-username frappe --db-root-password 1234
+2026-01-09 12:40:23,874 INFO /home/angele/hrms/venv/bin/bench new-site hrms.localhost --mariadb-root-username frappe --db-root-password 1234
+2026-01-09 12:40:44,117 INFO /home/angele/hrms/venv/bin/bench new-site hrms.localhost --mariadb-root-username frappe --db-root-password 1234
+2026-01-09 12:41:24,566 INFO /home/angele/hrms/venv/bin/bench new-site hrms.localhost --mariadb-root-username frappe --db-root-password 1234
+2026-01-09 12:41:58,205 INFO /home/angele/hrms/venv/bin/bench new-site hrms.localhost --mariadb-root-username frappe --db-root-password 1234
+2026-01-09 12:42:58,331 INFO /home/angele/hrms/venv/bin/bench --site hrms.localhost install-app erpnext
+2026-01-09 12:45:17,804 INFO /home/angele/hrms/venv/bin/bench --site hrms.localhost install-app hrms
+2026-01-09 12:46:42,174 INFO /home/angele/hrms/venv/bin/bench start
+2026-01-09 12:47:47,941 INFO /home/angele/hrms/venv/bin/bench start
+2026-01-09 12:47:48,413 INFO /home/angele/hrms/venv/bin/bench serve --port 8000
+2026-01-09 12:47:48,416 INFO /home/angele/hrms/venv/bin/bench worker
+2026-01-09 12:47:48,427 INFO /home/angele/hrms/venv/bin/bench watch
+2026-01-09 12:47:48,437 INFO /home/angele/hrms/venv/bin/bench schedule
+2026-01-12 09:03:53,038 INFO /home/angele/hrms/venv/bin/bench start
+2026-01-12 09:03:53,626 INFO /home/angele/hrms/venv/bin/bench serve --port 8000
+2026-01-12 09:03:53,645 INFO /home/angele/hrms/venv/bin/bench worker
+2026-01-12 09:03:53,652 INFO /home/angele/hrms/venv/bin/bench schedule
+2026-01-12 09:03:53,653 INFO /home/angele/hrms/venv/bin/bench watch
+2026-01-12 09:06:15,149 INFO /home/angele/hrms/venv/bin/bench start
+2026-01-12 09:06:15,572 INFO /home/angele/hrms/venv/bin/bench serve --port 8000
+2026-01-12 09:06:15,579 INFO /home/angele/hrms/venv/bin/bench watch
+2026-01-12 09:06:15,588 INFO /home/angele/hrms/venv/bin/bench schedule
+2026-01-12 09:06:15,610 INFO /home/angele/hrms/venv/bin/bench worker
+2026-01-12 09:09:27,102 INFO /home/angele/hrms/venv/bin/bench start
+2026-01-12 09:09:28,276 INFO /home/angele/hrms/venv/bin/bench serve --port 8000
+2026-01-12 09:09:28,294 INFO /home/angele/hrms/venv/bin/bench worker
+2026-01-12 09:09:28,305 INFO /home/angele/hrms/venv/bin/bench watch
+2026-01-12 09:09:28,329 INFO /home/angele/hrms/venv/bin/bench schedule
+2026-01-12 09:17:05,386 INFO /home/angele/hrms/venv/bin/bench start
+2026-01-12 09:17:06,030 INFO /home/angele/hrms/venv/bin/bench serve --port 8000
+2026-01-12 09:17:06,050 INFO /home/angele/hrms/venv/bin/bench worker
+2026-01-12 09:17:06,193 INFO /home/angele/hrms/venv/bin/bench watch
+2026-01-12 09:17:06,389 INFO /home/angele/hrms/venv/bin/bench schedule

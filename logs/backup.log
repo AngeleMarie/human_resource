@@ -1,0 +1,6 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_83cb4c91b7bd06ff --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _83cb4c91b7bd06ff | /usr/bin/gzip >> ./hrms.localhost/private/backups/20260108_120001-hrms_localhost-database.sql.gz
+
+Backup Summary for hrms.localhost at 2026-01-08 12:00:03.710941
+Config  : ./hrms.localhost/private/backups/20260108_120001-hrms_localhost-site_config_backup.json 94.0B
+Database: ./hrms.localhost/private/backups/20260108_120001-hrms_localhost-database.sql.gz         842.2KiB
+Backup for Site hrms.localhost has been successfully completed
