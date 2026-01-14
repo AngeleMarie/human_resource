@@ -3,6 +3,7 @@
  "db_password": "EknoctZAkasplH3Z",
  "db_type": "mariadb",
  "encryption_key": "PTQVNDk_um7xCaq_hr7Wxv9d7DWzGbRMe6mk71EiwP8=",
+ "host_name": "http://hrms.localhost",
  "user_type_doctype_limit": {
   "employee_self_service": 40
  }

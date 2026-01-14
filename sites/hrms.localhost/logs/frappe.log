@@ -1,3 +1,74 @@
 2026-01-09 15:34:47,115 ERROR frappe New Exception collected in error log
 Site: hrms.localhost
 Form Dict: {'chart_name': 'Hiring vs Attrition Count', 'filters': '{"time_interval":"Monthly","company":"QT Software (Demo)"}', 'refresh': '1', 'time_interval': '', 'timespan': '', 'from_date': '', 'to_date': '', 'heatmap_year': '', 'cmd': 'hrms.hr.dashboard_chart_source.hiring_vs_attrition_count.hiring_vs_attrition_count.get_data'}
+2026-01-12 12:05:32,149 ERROR frappe New Exception collected in error log
+Site: hrms.localhost
+Form Dict: {'cmd': 'frappe.client.get'}
+2026-01-12 12:07:37,109 ERROR frappe New Exception collected in error log
+Site: hrms.localhost
+Form Dict: {'cmd': 'frappe.client.get'}
+2026-01-12 12:10:55,817 ERROR frappe New Exception collected in error log
+Site: hrms.localhost
+Form Dict: {'cmd': 'frappe.client.get'}
+2026-01-12 12:11:32,538 ERROR frappe New Exception collected in error log
+Site: hrms.localhost
+Form Dict: {'cmd': 'frappe.client.get'}
+2026-01-12 16:33:25,630 ERROR frappe New Exception collected in error log
+Site: hrms.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Employee","name":"new-employee-ewepxkgays","__islocal":1,"__unsaved":1,"owner":"Administrator","naming_series":"HR-EMP-","status":"Active","create_user_permission":1,"company":"QT Software (Demo)","prefered_contact_email":"","unsubscribed":0,"current_accommodation_type":"","permanent_accommodation_type":"","salary_currency":"RWF","salary_mode":"","marital_status":"","blood_group":"","education":[],"external_work_history":[],"internal_work_history":[],"leave_encashed":"","national_id":"1234565432345677","_api_called":true,"first_name":"سوگند","last_name":"زارعی","gender":"Male","date_of_birth":"1979-02-07","date_of_retirement":"2039-02-07","date_of_joining":"2025-12-30"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2026-01-12 16:36:58,076 ERROR frappe New Exception collected in error log
+Site: hrms.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Employee","name":"new-employee-aaaspexgyd","__islocal":1,"__unsaved":1,"owner":"Administrator","naming_series":"HR-EMP-","status":"Active","create_user_permission":1,"company":"QT Software (Demo)","prefered_contact_email":"","unsubscribed":0,"current_accommodation_type":"","permanent_accommodation_type":"","salary_currency":"RWF","salary_mode":"","marital_status":"","blood_group":"","education":[],"external_work_history":[],"internal_work_history":[],"leave_encashed":"","national_id":"2345678765432345","_api_called":true,"first_name":"Eugenio","last_name":"Vargas","gender":"Male","date_of_birth":"1979-01-31","date_of_retirement":"2039-01-31","date_of_joining":"2025-12-09"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2026-01-12 16:39:29,405 ERROR frappe New Exception collected in error log
+Site: hrms.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Employee","name":"new-employee-hlmggnmexg","__islocal":1,"__unsaved":1,"owner":"Administrator","naming_series":"HR-EMP-","status":"Active","create_user_permission":1,"company":"QT Software (Demo)","prefered_contact_email":"Personal Email","unsubscribed":0,"current_accommodation_type":"","permanent_accommodation_type":"","salary_currency":"RWF","salary_mode":"","marital_status":"","blood_group":"","education":[],"external_work_history":[],"internal_work_history":[],"leave_encashed":"","national_id":"2345678987654323","_api_called":true,"first_name":"Emmie","last_name":"Duval","gender":"Male","date_of_birth":"2005-01-07","date_of_retirement":"2065-01-07","date_of_joining":"2025-12-31","personal_email":"stacymwesigye@gmail.com","prefered_email":"stacymwesigye@gmail.com","company_email":"stacymwesigye@gmail.com"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2026-01-13 12:07:59,421 ERROR frappe New Exception collected in error log
+Site: hrms.localhost
+Form Dict: {'national_id': '2345676543234567', 'cmd': 'hrms.api.fetch_random_user_name.fetch_random_user_name'}
+2026-01-13 12:08:31,038 ERROR frappe New Exception collected in error log
+Site: hrms.localhost
+Form Dict: {'national_id': '2345676543234566', 'cmd': 'hrms.api.fetch_random_user_name.fetch_random_user_name'}
+2026-01-13 12:09:03,497 ERROR frappe New Exception collected in error log
+Site: hrms.localhost
+Form Dict: {'national_id': '1234567898765432', 'cmd': 'hrms.api.fetch_random_user_name.fetch_random_user_name'}
+2026-01-13 12:09:43,391 ERROR frappe New Exception collected in error log
+Site: hrms.localhost
+Form Dict: {'national_id': '2345678987654323', 'cmd': 'hrms.api.fetch_random_user_name.fetch_random_user_name'}
+2026-01-13 12:10:36,372 ERROR frappe New Exception collected in error log
+Site: hrms.localhost
+Form Dict: {'national_id': '2345678987654323', 'cmd': 'hrms.api.fetch_random_user_name.fetch_random_user_name'}
+2026-01-13 12:52:44,169 ERROR frappe New Exception collected in error log
+Site: hrms.localhost
+Form Dict: {'national_id': '2345676542222222', 'cmd': 'hrms.api.fetch_random_user_name.fetch_random_user_name'}
+2026-01-14 12:38:51,822 ERROR frappe New Exception collected in error log
+Site: hrms.localhost
+Form Dict: {'name': '3gtecuifnp', 'force_send': 'true', 'cmd': 'frappe.email.doctype.email_queue.email_queue.send_now', 'pdf_generator': 'wkhtmltopdf'}
+2026-01-14 12:45:20,846 ERROR frappe New Exception collected in error log
+Site: hrms.localhost
+Form Dict: {'name': '3gtecuifnp', 'force_send': 'true', 'cmd': 'frappe.email.doctype.email_queue.email_queue.send_now', 'pdf_generator': 'wkhtmltopdf'}
+2026-01-14 12:45:39,623 ERROR frappe Error while inserting deferred Error Log record: Error Log 1i47i3e7nq: 'Title' (wkhtmltopdf reported an error:
+The switch --print-media-type, is not support using unpatched qt, and will be ignored.The switch --header-html, is not support using unpatched qt, and will be ignored.The switch --footer-html, is not support using unpatched qt, and will be ignored.The switch --disable-smart-shrinking, is not support using unpatched qt, and will be ignored.Exit with code 1 due to network error: HostNotFoundError
+) will get truncated, as max characters allowed is 140
+Site: hrms.localhost
+Form Dict: {}
+2026-01-14 12:45:39,627 ERROR frappe Error while inserting deferred Error Log record: Error Log 1i4dan06de: 'Title' (wkhtmltopdf reported an error:
+The switch --print-media-type, is not support using unpatched qt, and will be ignored.The switch --header-html, is not support using unpatched qt, and will be ignored.The switch --footer-html, is not support using unpatched qt, and will be ignored.The switch --disable-smart-shrinking, is not support using unpatched qt, and will be ignored.Exit with code 1 due to network error: HostNotFoundError
+) will get truncated, as max characters allowed is 140
+Site: hrms.localhost
+Form Dict: {}
+2026-01-14 12:55:53,269 ERROR frappe New Exception collected in error log
+Site: hrms.localhost
+Form Dict: {'name': '3gtecuifnp', 'force_send': 'true', 'cmd': 'frappe.email.doctype.email_queue.email_queue.send_now', 'pdf_generator': 'wkhtmltopdf'}
+2026-01-14 12:59:29,103 ERROR frappe New Exception collected in error log
+Site: hrms.localhost
+Form Dict: {'name': '9bv95lefqc', 'force_send': 'true', 'cmd': 'frappe.email.doctype.email_queue.email_queue.send_now', 'pdf_generator': 'wkhtmltopdf'}
+2026-01-14 13:00:48,500 ERROR frappe Error while inserting deferred Error Log record: Error Log ae4qs4tga2: 'Title' (wkhtmltopdf reported an error:
+The switch --print-media-type, is not support using unpatched qt, and will be ignored.The switch --header-html, is not support using unpatched qt, and will be ignored.The switch --footer-html, is not support using unpatched qt, and will be ignored.The switch --disable-smart-shrinking, is not support using unpatched qt, and will be ignored.Exit with code 1 due to network error: HostNotFoundError
+) will get truncated, as max characters allowed is 140
+Site: hrms.localhost
+Form Dict: {}
+2026-01-14 13:00:48,503 ERROR frappe Error while inserting deferred Error Log record: Error Log ae56bh7ap6: 'Title' (wkhtmltopdf reported an error:
+The switch --print-media-type, is not support using unpatched qt, and will be ignored.The switch --header-html, is not support using unpatched qt, and will be ignored.The switch --footer-html, is not support using unpatched qt, and will be ignored.The switch --disable-smart-shrinking, is not support using unpatched qt, and will be ignored.Exit with code 1 due to network error: HostNotFoundError
+) will get truncated, as max characters allowed is 140
+Site: hrms.localhost
+Form Dict: {}

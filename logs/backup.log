@@ -4,3 +4,21 @@ Backup Summary for hrms.localhost at 2026-01-08 12:00:03.710941
 Config  : ./hrms.localhost/private/backups/20260108_120001-hrms_localhost-site_config_backup.json 94.0B
 Database: ./hrms.localhost/private/backups/20260108_120001-hrms_localhost-database.sql.gz         842.2KiB
 Backup for Site hrms.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_83cb4c91b7bd06ff --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _83cb4c91b7bd06ff | /usr/bin/gzip >> ./hrms.localhost/private/backups/20260112_120002-hrms_localhost-database.sql.gz
+
+Backup Summary for hrms.localhost at 2026-01-12 12:00:06.171019
+Config  : ./hrms.localhost/private/backups/20260112_120002-hrms_localhost-site_config_backup.json 225.0B
+Database: ./hrms.localhost/private/backups/20260112_120002-hrms_localhost-database.sql.gz         1.0MiB
+Backup for Site hrms.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_83cb4c91b7bd06ff --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _83cb4c91b7bd06ff | /usr/bin/gzip >> ./hrms.localhost/private/backups/20260113_120003-hrms_localhost-database.sql.gz
+
+Backup Summary for hrms.localhost at 2026-01-13 12:00:06.864176
+Config  : ./hrms.localhost/private/backups/20260113_120003-hrms_localhost-site_config_backup.json 225.0B
+Database: ./hrms.localhost/private/backups/20260113_120003-hrms_localhost-database.sql.gz         1.0MiB
+Backup for Site hrms.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_83cb4c91b7bd06ff --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _83cb4c91b7bd06ff | /usr/bin/gzip >> ./hrms.localhost/private/backups/20260114_120003-hrms_localhost-database.sql.gz
+
+Backup Summary for hrms.localhost at 2026-01-14 12:00:08.862520
+Config  : ./hrms.localhost/private/backups/20260114_120003-hrms_localhost-site_config_backup.json 225.0B
+Database: ./hrms.localhost/private/backups/20260114_120003-hrms_localhost-database.sql.gz         1.1MiB
+Backup for Site hrms.localhost has been successfully completed

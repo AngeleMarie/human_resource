@@ -130,3 +130,54 @@
 2026-01-12 09:17:06,050 INFO /home/angele/hrms/venv/bin/bench worker
 2026-01-12 09:17:06,193 INFO /home/angele/hrms/venv/bin/bench watch
 2026-01-12 09:17:06,389 INFO /home/angele/hrms/venv/bin/bench schedule
+2026-01-12 12:00:01,619 INFO /home/angele/hrms/venv/bin/bench --verbose --site all backup
+2026-01-12 12:43:13,982 INFO /home/angele/hrms/venv/bin/bench start
+2026-01-12 12:43:15,004 INFO /home/angele/hrms/venv/bin/bench worker
+2026-01-12 12:43:15,087 INFO /home/angele/hrms/venv/bin/bench schedule
+2026-01-12 12:43:15,326 INFO /home/angele/hrms/venv/bin/bench serve --port 8000
+2026-01-12 12:43:15,469 INFO /home/angele/hrms/venv/bin/bench watch
+2026-01-12 16:31:44,650 INFO /home/angele/hrms/venv/bin/bench set-config -g server_script_enabled 1
+2026-01-13 10:22:03,192 INFO /home/angele/hrms/venv/bin/bench start
+2026-01-13 10:22:03,608 INFO /home/angele/hrms/venv/bin/bench serve --port 8000
+2026-01-13 10:22:03,622 INFO /home/angele/hrms/venv/bin/bench watch
+2026-01-13 10:22:03,624 INFO /home/angele/hrms/venv/bin/bench worker
+2026-01-13 10:22:03,626 INFO /home/angele/hrms/venv/bin/bench schedule
+2026-01-13 12:00:02,201 INFO /home/angele/hrms/venv/bin/bench --verbose --site all backup
+2026-01-13 15:11:53,316 INFO /home/angele/hrms/venv/bin/bench start
+2026-01-13 15:11:54,509 INFO /home/angele/hrms/venv/bin/bench worker
+2026-01-13 15:11:54,514 INFO /home/angele/hrms/venv/bin/bench serve --port 8000
+2026-01-13 15:11:54,551 INFO /home/angele/hrms/venv/bin/bench watch
+2026-01-13 15:11:54,655 INFO /home/angele/hrms/venv/bin/bench schedule
+2026-01-13 19:27:50,742 INFO /home/angele/hrms/venv/bin/bench pip install python-dotenv
+2026-01-13 20:16:44,614 INFO /home/angele/hrms/venv/bin/bench start
+2026-01-13 20:16:45,954 INFO /home/angele/hrms/venv/bin/bench worker
+2026-01-13 20:16:46,174 INFO /home/angele/hrms/venv/bin/bench serve --port 8000
+2026-01-13 20:16:46,238 INFO /home/angele/hrms/venv/bin/bench schedule
+2026-01-13 20:16:46,310 INFO /home/angele/hrms/venv/bin/bench watch
+2026-01-14 09:03:25,939 INFO /home/angele/hrms/venv/bin/bench start
+2026-01-14 09:03:26,366 INFO /home/angele/hrms/venv/bin/bench serve --port 8000
+2026-01-14 09:03:26,417 INFO /home/angele/hrms/venv/bin/bench schedule
+2026-01-14 09:03:26,427 INFO /home/angele/hrms/venv/bin/bench watch
+2026-01-14 09:03:26,427 INFO /home/angele/hrms/venv/bin/bench worker
+2026-01-14 12:00:02,486 INFO /home/angele/hrms/venv/bin/bench --verbose --site all backup
+2026-01-14 12:51:17,077 INFO /home/angele/hrms/venv/bin/bench --site hrms.localhost console
+2026-01-14 12:52:22,788 INFO /home/angele/hrms/venv/bin/bench --site all list
+2026-01-14 12:53:00,664 INFO /home/angele/hrms/venv/bin/bench --hrms.localhost all list
+2026-01-14 12:53:26,447 INFO /home/angele/hrms/venv/bin/bench --site hrms.localhost console
+2026-01-14 12:54:06,995 INFO /home/angele/hrms/venv/bin/bench --site hrms.localhost set-config host_name http://hrms.localhost
+2026-01-14 13:02:16,548 INFO /home/angele/hrms/venv/bin/bench --site hrms.localhost set-config host_name http://hrms.localhost
+2026-01-14 13:03:47,557 INFO /home/angele/hrms/venv/bin/bench start
+2026-01-14 13:03:47,990 INFO /home/angele/hrms/venv/bin/bench serve --port 8000
+2026-01-14 13:03:47,991 INFO /home/angele/hrms/venv/bin/bench watch
+2026-01-14 13:03:47,999 INFO /home/angele/hrms/venv/bin/bench worker
+2026-01-14 13:03:48,005 INFO /home/angele/hrms/venv/bin/bench schedule
+2026-01-14 15:43:03,926 INFO /home/angele/hrms/venv/bin/bench start
+2026-01-14 15:43:04,360 INFO /home/angele/hrms/venv/bin/bench watch
+2026-01-14 15:43:04,364 INFO /home/angele/hrms/venv/bin/bench schedule
+2026-01-14 15:43:04,377 INFO /home/angele/hrms/venv/bin/bench serve --port 8000
+2026-01-14 15:43:04,386 INFO /home/angele/hrms/venv/bin/bench worker
+2026-01-14 16:36:19,585 INFO /home/angele/hrms/venv/bin/bench start
+2026-01-14 16:36:20,233 INFO /home/angele/hrms/venv/bin/bench serve --port 8000
+2026-01-14 16:36:20,243 INFO /home/angele/hrms/venv/bin/bench worker
+2026-01-14 16:36:20,245 INFO /home/angele/hrms/venv/bin/bench watch
+2026-01-14 16:36:20,247 INFO /home/angele/hrms/venv/bin/bench schedule

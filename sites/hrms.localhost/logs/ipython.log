@@ -1,0 +1,7 @@
+2026-01-14 12:52:12,482 INFO ipython === bench console session ===
+2026-01-14 12:52:12,483 INFO ipython frappe.get_conf().get("host_name")
+2026-01-14 12:52:12,483 INFO ipython frappe.get_conf().get("host_name")
+2026-01-14 12:52:12,483 INFO ipython === session end ===
+2026-01-14 12:54:05,051 INFO ipython === bench console session ===
+2026-01-14 12:54:05,052 INFO ipython frappe.get_conf().get("host_name")
+2026-01-14 12:54:05,052 INFO ipython === session end ===

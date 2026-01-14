@@ -2562,3 +2562,42 @@ ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
 ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
 2026-01-12 11:41:55,387 WARNING database DDL Query made to DB:
 ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2026-01-13 12:14:53,227 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2026-01-13 12:32:30,021 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `custom_has_passport` int(1) not null default 0
+2026-01-13 12:32:30,038 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2026-01-13 12:32:42,720 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee`
+				CHANGE COLUMN `custom_has_passport`
+				`has_passport`
+				int(1)
+2026-01-13 12:33:31,315 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` ADD COLUMN `custom_passport_id` varchar(140)
+2026-01-13 12:33:31,329 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2026-01-13 13:03:05,298 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
+2026-01-13 20:27:57,480 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `national_id` varchar(140), MODIFY `ctc` decimal(21,9) not null default 0
+2026-01-14 12:21:25,027 WARNING database DDL Query made to DB:
+ALTER TABLE `tabContact` ADD COLUMN `custom_national_id` varchar(140) unique
+2026-01-14 12:21:25,037 WARNING database DDL Query made to DB:
+ALTER TABLE `tabContact` ADD UNIQUE INDEX IF NOT EXISTS custom_national_id (`custom_national_id`)
+2026-01-14 12:21:31,496 WARNING database DDL Query made to DB:
+ALTER TABLE `tabContact`
+				CHANGE COLUMN `custom_national_id`
+				`national_id`
+				varchar(140)
+2026-01-14 13:14:04,675 WARNING database DDL Query made to DB:
+ALTER TABLE `tabContact` ADD COLUMN `custom_has_passport` int(1) not null default 0
+2026-01-14 13:14:10,966 WARNING database DDL Query made to DB:
+ALTER TABLE `tabContact`
+				CHANGE COLUMN `custom_has_passport`
+				`has_passport`
+				int(1)
+2026-01-14 13:22:29,424 WARNING database DDL Query made to DB:
+ALTER TABLE `tabContact` ADD COLUMN `custom_passport_id` varchar(140)
+2026-01-14 14:20:02,517 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEmployee` MODIFY `ctc` decimal(21,9) not null default 0
